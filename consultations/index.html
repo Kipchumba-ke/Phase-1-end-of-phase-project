@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumcare Connect Holistic Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>OUR SERVICES</h2>
+        <p>Mumcare Connect Holistic Center provides top-notch care in women's health specialties.</p>
+    </header>
+
+    <main>
+        <div class="service-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="card-content">
+                <h4>Maternal Health Tracker</h4>
+                <p>Enter your pregnancy week to get detailed updates:</p>
+                <input type="number" id="weekInput" placeholder="Enter week (1-42)" min="1" max="42">
+                <button id="fetchDataButton">Get Updates</button>
+                <div id="info">
+                    <h5 id="youHeading"></h5>
+                    <p id="you"></p>
+                    <h5 id="babyHeading"></h5>
+                    <p id="baby"></p>
+                    <h5 id="thinkHeading"></h5>
+                    <p id="think"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>

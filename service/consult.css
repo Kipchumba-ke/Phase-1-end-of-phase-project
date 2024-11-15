@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #070B34, #2A3EB1);
+    color: white;
+}
+
+.about-hospital {
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+}
+
+.medical-provider {
+    width: 40%;
+    padding: 20px;
+}
+
+.medical-provider h3 {
+    margin-bottom: 20px;
+}
+
+.consult {
+    background-color: #005596; /* Darker blue for buttons */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.consult:hover, .book-appointment:hover {
+    background-color: #003366; /* Hover effect */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="tel"], input[type="date"], input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #005596;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

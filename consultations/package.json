@@ -1,0 +1,22 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kipchumba-ke/Phase-1-end-of-phase-project.git"
+  },
+  "author": "Kipchumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kipchumba-ke/Phase-1-end-of-phase-project/issues"
+  },
+  "homepage": "https://github.com/Kipchumba-ke/Phase-1-end-of-phase-project#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
