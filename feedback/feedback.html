@@ -1,3 +1,40 @@
+
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback from our Clients</h1>
+        <div id="feedback-display" class="feedback-cards"-->
+            <!-- Feedback cards will be dynamically inserted here -->
+        <!--/div>
+        <button id="load-more" style="display: none;">Load More</button>
+        <div class="feedback-input">
+            <h2>Give Your Feedback</h2>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5" value="5">
+                <label for="rate-5" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-4" value="4">
+                <label for="rate-4" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-3" value="3">
+                <label for="rate-3" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-2" value="2">
+                <label for="rate-2" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-1" value="1">
+                <label for="rate-1" class="fas fa-star">☆</label>
+            </div>
+            <textarea id="feedback-text" placeholder="Describe your experience"></textarea>
+            <button id="submit-feedback">Post</button>
+        </div>
+    </div>
+    <script src="feedback.js"></script>
+</body>
+</html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,24 +46,30 @@
 <body>
     <div class="container">
         <h1>Feedback from our Clients</h1>
-        <div class="feedback-cards">
-            <div class="card">
-                <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                <strong>Hailey</strong>
-            </div>
-            <div class="card">
-                <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                <strong>Ingrid</strong>
-            </div>
-            <div class="card">
-                <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                <strong>Douglas</strong>
-            </div>
+        <div id="feedback-display" class="feedback-cards">
+            <!-- Feedback cards will be dynamically inserted here -->
         </div>
+        <button id="load-more" style="display: none;">Load More</button>
         <div class="feedback-input">
-            <label for="feedback">GIVE YOUR FEEDBACK</label>
-            <input type="text" id="feedback" placeholder="Write your feedback here...">
+            <h2>Give Your Feedback</h2>
+            <input type="text" id="feedback-name" placeholder="Your Name" />
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5" value="5">
+                <label for="rate-5" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-4" value="4">
+                <label for="rate-4" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-3" value="3">
+                <label for="rate-3" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-2" value="2">
+                <label for="rate-2" class="fas fa-star">☆</label>
+                <input type="radio" name="rate" id="rate-1" value="1">
+                <label for="rate-1" class="fas fa-star">☆</label>
+            </div>
+            <textarea id="feedback-text" placeholder="Describe your experience"></textarea>
+            <button id="submit-feedback">Post</button>
         </div>
     </div>
+    <script src="feedback.js"></script>
 </body>
 </html>
+

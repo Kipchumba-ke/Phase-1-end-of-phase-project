@@ -10,12 +10,16 @@ header {
     padding: 20px;
     text-align: center;
 }
+.logo{
+    color: aliceblue;
+}
 .overlay {
     position: relative;
     background-image: url('./AdobeStock_805011469_Preview.jpeg'); 
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
+    filter: blur(0px);
 }
 
 .navbar .logo {
@@ -51,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #070707;
     font-weight: bold;
 }
 
@@ -65,10 +69,10 @@ nav ul li a {
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #164fc2;
+    color: #0a0a0a;
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: #164fc2;
+    color: #101111;
 }

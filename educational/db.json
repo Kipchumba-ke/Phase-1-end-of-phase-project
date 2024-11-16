@@ -1,0 +1,77 @@
+{
+    "self care":{
+        "title" : "Self Care during Pregnancy and Afterbirth",
+        "body": [
+            "Rest: Get enough rest, especially when your baby is sleeping.",
+            "Eat well: Eat a variety of healthy foods, including whole grains, fruits, vegetables, and protein. Stay hydrated, especially if you're breastfeeding",
+            "Exercise: Build physical activity into your day, but avoid strenuous activity. You can start with daily walks with your baby.",
+            "Accept help: Ask for and accept help from friends and family. They can help take care of the baby or the house",
+            "Take it easy: Be patient with your body as it recovers and heals. Take things at your own pace",
+            "Make time for yourself: Do some of the things you enjoyed doing before baby.",
+            "Connect with others: Join a mommy support group or connect with other new parents at early years programs, parenting classes, and fitness classes",
+            "Follow your doctor's orders: Don't skip your follow-up appointments.",
+            "Manage afterpains: Afterpains are common during breastfeeding and feel like menstrual cramps. A healthcare professional might suggest a pain reliever like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin IB).",
+            "Improve mental health: Exercise can help improve your mental health."
+        ],
+        "articles": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK304191/",
+            "https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-022-04961-z",
+            "https://www.stanfordchildrens.org/en/topic/default?id=the-new-mother-taking-care-of-yourself-after-birth-90-P02693#:~:text=You%20need%20time%20to%20recover,to%20care%20for%20your%20baby."
+        ]
+    },
+    "vaccination" :{
+        "title": "Kenya Vaccination Schedule",
+        "body" : [
+        { "age": "Birth", "vaccine": "BCG/OPV/Hepatitis B", "Disease Prevented" : "TB/Polio/ Hepatitis B"},
+      
+        { "age": "6 Weeks", "vaccine": "DPT/OPV/HIB,Pneumoccocal/Rotavirus ", "Disease Prevented" : "Diptheria, Pertusiss, Tetanus, Haemophilae Influenza Type B, Polio, Hepatitis B, Pneumonia, Rotavirus" },
+      
+        { "age": "10 Weeks", "vaccine": "DPT/OPV/HIB,Pneumoccocal/Rotavirus", "Disease Prevented" : "Diptheria, Pertusiss, Tetanus, Haemophilae Influenza Type B, Polio, Hepatitis B, Pneumonia, Rotavirus" },
+
+        { "age": "14 Weeks", "vaccine": "DPT/OPV/HIB,Pneumoccocal/Rotavirus", "Disease Prevented" : "Diptheria, Pertusiss, Tetanus, Haemophilae Influenza Type B, Polio, Hepatitis B, Pneumonia, Rotavirus" },
+
+        { "age": "6 Months", "vaccine": "Vit A, Measles for sero-exposed babies", "Disease Prevented" : "Vitamin A deficiensy" },
+
+        { "age": "9 Months", "vaccine": "Measles/Yellow Fever", "Disease Prevented" : "Measles Yellow, Fever" }
+        ],
+        "articles" : "https://youtu.be/R82yuj6ZyiY?feature=shared"
+    },
+    "Infant Nutrition":{
+        "title" : "Infant Nutrition",
+        "body" :[
+            "Infant nutrition is important for a child's survival, growth, and development. Here are some tips for infant nutrition",
+            "Breastfeeding:Ideally, infants should be put to breast within an hour of birth and breastfed exclusively for the first six months. Breast milk contains all the necessary vitamins and minerals",
+            "Solid foods: Introduce solid foods at around six months of age. Start with pureed, mashed, or semi-solid foods. By eight months, most infants can eat finger foods.",
+            "Food variety: Offer a variety of foods from different food groups, including fruits, vegetables, grains, yogurt, cheese, and meat or other proteins.",
+            "Food consistency: Gradually increase the consistency and variety of foods as your infant gets older",
+            "Food preparation: Prepare foods safely",
+            "Food allergies: Introduce one new food at a time to identify any foods that cause allergies. Allergic reactions include diarrhea, vomiting, or a rash.",
+            "Vitamin D: Provide your baby with a vitamin D supplement soon after birth.",
+            "Drinks: Avoid drinks with low nutrient value, such as tea, coffee, and sugary soft drinks. Limit the amount of juice offered"
+        ],
+        "articles":[
+            "https://www.cdc.gov/nutrition/infantandtoddlernutrition/index.html",
+            "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+            "https://www.ncbi.nlm.nih.gov/books/NBK560758/",
+            "https://medlineplus.gov/infantandnewbornnutrition.html#:~:text=For%20a%20baby%2C%20breast%20milk,give%20your%20baby%20peanut%20products."
+        ]
+    },
+    "Early childhood health" :{
+        "title" :"Positive Parenting Tips",
+        "body":[
+            "As a parent, to promote early childhood health, you should focus on providing your child with proper nutrition, regular medical checkups, a safe environment, responsive caregiving through interaction and play, and actively fostering their development through talking, singing, and reading to them regularly; essentially creating a nurturing environment that supports their physical, emotional, and cognitive growth from birth onwards.Key actions to take",
+            "Nutrition: Breastfeed your baby exclusively for the first six months, then introduce solid foods appropriately. Offer a balanced diet with plenty of fruits, vegetables, whole grains, and lean protein.Limit sugary drinks and unhealthy snacks.",
+            "Healthcare: Follow recommended immunization schedules. Attend all scheduled well-baby checkups and screenings. Address any health concerns promptly with your pediatrician.",
+            "Safe environment: Baby-proof your home to prevent accidents. Supervise your child closely during playtime. Use car seats and booster seats properly when traveling.",
+            "Responsive caregiving: Talk, sing, and read to your child often. Make eye contact and respond to their cues. Provide cuddles and comfort when needed. Engage in age-appropriate play activities.",
+            "Early learning stimulation: Provide toys and activities that promote sensory development. Encourage exploration and curiosity. Read books with your child and discuss the pictures. Teach basic skills like colors, shapes, and numbers.",
+            "Mental health support: Be patient and understanding with your child's emotions. Model positive coping mechanisms. Seek professional help if you notice any concerning behaviors."
+        ],
+        "articles" :[
+            "https://www.firstthingsfirst.org/first-things/make-the-most-of-their-early-years/#:~:text=Quality%20time%20with%20you%20is,language%20and%20many%20other%20things.",
+            "https://www.unicef.org/parenting/topics/early-childhood-development",
+            "https://kidshealth.org/en/parents/nine-steps.html",
+            "https://developingchild.harvard.edu/resources/three-early-childhood-development-principles-improve-child-family-outcomes/"
+        ]
+    }
+}
