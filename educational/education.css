@@ -69,3 +69,47 @@ h1 {
 .card:hover {
     transform: scale(1.05);
 }
+.content p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em; 
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #070B34;
+    color: white;
+    font-weight: bold;
+}
+
+/*table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #D4FF58;
+    color: #070B34;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #b5db47;
+}

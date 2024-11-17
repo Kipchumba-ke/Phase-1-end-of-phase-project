@@ -65,7 +65,6 @@ submitFeedbackButton.addEventListener("click", () => {
             return response.json();
         })
         .then(() => {
-            // Clear inputs
             feedbackName.value = "";
             feedbackText.value = "";
             starInputs.forEach(input => input.checked = false);
@@ -81,6 +80,3 @@ loadMoreButton.addEventListener("click", () => {
 });
 
 fetchFeedback();
-
-
-

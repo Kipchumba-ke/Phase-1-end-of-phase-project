@@ -15,7 +15,7 @@ header {
 }
 .overlay {
     position: relative;
-    background-image: url('./AdobeStock_805011469_Preview.jpeg'); 
+    background-image: url('./overlay'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -55,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #070707;
+    color: #fafafa;
     font-weight: bold;
 }
 
@@ -69,10 +69,10 @@ nav ul li a {
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #0a0a0a;
+    color: #faf7f7;
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: #101111;
+    color: #f9fcfc;
 }
