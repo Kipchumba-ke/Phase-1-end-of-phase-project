@@ -31,20 +31,136 @@
         </div>
     </section>
     <section>
+        <div class="consult-page">
+            <div class="about-hospital">
+                <h2>About Hospital</h2>
+                <p>Mumconnect is a premier healthcare facility dedicated to providing exceptional reproductive health services. Our focus on antenatal, intrapartum, and postnatal care ensures that every woman receives the highest quality care throughout her pregnancy journey. <br>
+    
+                    Our team of experienced healthcare professionals, including obstetricians, gynecologists, midwives, and nurses, is committed to delivering personalized care that meets the unique needs of each patient. We utilize advanced medical technologies and evidence-based practices to ensure the well-being of both mother and child. <br>
+                    
+                    At Mumconnect, we adhere to the highest standards of medical ethics and professionalism. We prioritize patient safety, confidentiality, and comfort. Our commitment to excellence is reflected in our rigorous quality assurance programs and continuous improvement initiatives. We are dedicated to empowering women with the knowledge and tools they need to make informed decisions about their reproductive health.</p>
+            </div>
+            <div class="medical-provider">
+                <h3>TALK TO A MEDICAL PROVIDER</h3>
+                <button class="consult">CONSULT</button> <br>
+                <h3>BOOK APPOINTMENT</h3>
+                <form class="user">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="on"><br><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="on"><br><br>
+    
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" placeholder="Enter date" autocomplete="on"><br><br>
+    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="list"></div>
+        </div>
+    </section>
+    <section>
+        <div class="services">
+            <h2>OUR SERVICES</h2>
+            <p>Mumcare Connect Holistic Center provides top-notch care in women's health specialties.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="card-content">
+                <h4>Maternal Health Tracker</h4>
+                <p>Enter your pregnancy week to get detailed updates:</p>
+                <input type="number" id="weekInput" placeholder="Enter week (1-42)" min="1" max="42">
+                <button id="fetchDataButton">Get Updates</button>
+                <div id="info">
+                    <h5 id="youHeading"></h5>
+                    <p id="you"></p>
+                    <h5 id="babyHeading"></h5>
+                    <p id="baby"></p>
+                    <h5 id="thinkHeading"></h5>
+                    <p id="think"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="education">
+            <h1 class="eduu">Mother and Child Health Journey</h1>
+            <div class="service-cards">
+                <div class="card">
+                    <h2>Self-assessment</h2>
+                    <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <h2>Vaccination Schedule</h2>
+                    <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <h2>Infant Nutrition</h2>
+                    <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <h2>Early Childhood Health</h2>
+                    <p>Share your service offerings here. Give your prospective clients an overview of why they should use it.</p>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="feedback-page">
+            <h1>Feedback from our Clients</h1>
+            <div id="feedback-display" class="feedback-cards">
+                <!-- Feedback cards will be dynamically inserted here -->
+            </div>
+            <button id="load-more" style="display: none;">Load More</button>
+            <div class="feedback-input">
+                <h2>Give Your Feedback</h2>
+                <input type="text" id="feedback-name" placeholder="Your Name" />
+                <div class="star-widget">
+                    <input type="radio" name="rate" id="rate-5" value="5">
+                    <label for="rate-5" class="fas fa-star">☆</label>
+                    <input type="radio" name="rate" id="rate-4" value="4">
+                    <label for="rate-4" class="fas fa-star">☆</label>
+                    <input type="radio" name="rate" id="rate-3" value="3">
+                    <label for="rate-3" class="fas fa-star">☆</label>
+                    <input type="radio" name="rate" id="rate-2" value="2">
+                    <label for="rate-2" class="fas fa-star">☆</label>
+                    <input type="radio" name="rate" id="rate-1" value="1">
+                    <label for="rate-1" class="fas fa-star">☆</label>
+                </div>
+                <textarea id="feedback-text" placeholder="Describe your experience"></textarea>
+                <button id="submit-feedback">Post</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-info">
+            
 
-        <iframe src="./service/consult.html"></iframe>
-    </section>
-    <section>
-        <iframe src="./consultations/index.html"></iframe>
-    </section>
-    <section>
-        <iframe src="./educational/education.html"></iframe>
-    </section>
-    <section>
-        <iframe src="./feedback/feedback.html"></iframe>
-    </section>
-    <section>
-        <iframe src="./contacts/index.html"></iframe>
+            <div class="contact-details">
+                <h1>Get in touch</h1>
+                <p>Want to get in touch? we`d love to hear from you. Here`s how you can reach us</p>
+                <p><strong>Phone</strong><br>(254) 723-374-752</p>
+                <p><strong>Email</strong><br><a href="mailto:chogekelvin90@gmail.com">Send email</a></p>
+                <p><strong>Social</strong></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kipchumba.ke/profilecard/?igsh=MWQ2ZnJqMjB3Zjl2MA==" class="fa fa-instagram">Instagram</a>
+                    <a href="https://x.com/Kipchumba_76" class="fa fa-twitter">Twitter/X</a>
+                    <a href="https://web.telegram.org/a/" class="fa fa-telegram">Telegram</a>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="https://www.bpmcdn.com/f/files/abbotsford/import/2022-04/28678971_web1_220408-MCR-maternity-clinic-closes-Mission-Maternity-Clinic-closing_1.jpg;w=960" alt="Mumcare Connect Logo" width="576" height="370"> 
+                <!--<h2>MUMCARE CONNECT<br>HOLISTIC CENTER</h2-->
+            </div>
+        </div>
     </section>   
 </body>
 </html>

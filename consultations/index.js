@@ -2,7 +2,6 @@ document.getElementById("fetchDataButton").addEventListener("click", () => {
     const weekInput = document.getElementById("weekInput").value;
     const infoContainer = document.getElementById("info");
 
-    // Reset content before adding new data
     infoContainer.classList.remove("expanded");
     document.getElementById("youHeading").innerText = "";
     document.getElementById("you").innerText = "";
@@ -11,8 +10,8 @@ document.getElementById("fetchDataButton").addEventListener("click", () => {
     document.getElementById("thinkHeading").innerText = "";
     document.getElementById("think").innerText = "";
 
-    if (weekInput < 1 || weekInput > 40 || isNaN(weekInput)) {
-        alert("Please enter a valid week number between 1 and 40.");
+    if (weekInput < 1 || weekInput > 42 || isNaN(weekInput)) {
+        alert("Please enter a valid week number between 1 and 42.");
         return;
     }
 

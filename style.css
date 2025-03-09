@@ -1,4 +1,5 @@
 body {
+    color: #f9fcfc;
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -72,7 +73,70 @@ nav ul li a {
     color: #faf7f7;
 }
 
+
 .hero p {
     font-size: 1.2rem;
     color: #f9fcfc;
+}
+
+.consult-page{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: right; */
+}
+
+.about-hospital{
+    width: 50%;
+    color: #f9fcfc;
+    /* display: inline-table; */
+    padding: 10px;
+    /* margin: 20px; */
+    /* margin-right: 70vh; */
+    text-align: justify;
+}
+
+.medical-provider{
+    text-align: center;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.user{
+    text-align: center;
+    display: inline-block;
+}
+
+.services{
+    color: #f9fcfc;
+    text-align: center;
+}
+
+.service-card{
+    color: #f9fcfc;
+    text-align: center;  
+}
+
+.service-cards{
+    display: flex;
+}
+
+.eduu{
+    text-align: center;
+}
+
+.feedback-page{
+    text-align: center;
+}
+
+.contact-info{
+    display: flex;
+}
+
+.contact-details{
+    display: inline-block;
+}
+
+.contact-logo img{
+    display: none;
+    text-align: left;
 }
